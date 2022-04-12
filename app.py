@@ -4,6 +4,7 @@ from sanic_jinja2 import SanicJinja2 as sj
 from ezmysql import ConnectionAsync
 import datetime
 
+
 host = 'hlf01.site'
 database = 'jzz'
 user = 'root'
