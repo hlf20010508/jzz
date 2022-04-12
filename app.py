@@ -4,10 +4,10 @@ from sanic_jinja2 import SanicJinja2 as sj
 from ezmysql import ConnectionAsync
 import datetime
 
-host = 'localhost'
-database = 'data'
+host = 'hlf01.site'
+database = 'jzz'
 user = 'root'
-password = 'abcd46754999'
+password = '1486922887'
 # create connection
 db = ConnectionAsync(
     host,
@@ -361,7 +361,7 @@ async def plotBg(request):
 
 if __name__ == '__main__':
     app.run(
-        host='127.0.0.1',
+        host='0.0.0.0',
         port=8080,
         debug=True
     )
