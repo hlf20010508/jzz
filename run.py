@@ -5,7 +5,7 @@ from ezmysql import ConnectionAsync
 import datetime
 
 
-host = 'hlf01.site'
+host = '124.223.224.49'
 database = 'jzz'
 user = 'root'
 password = '1486922887'
