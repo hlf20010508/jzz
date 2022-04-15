@@ -16,21 +16,15 @@ db = ConnectionAsync(
     user,
     password,
 )
-
 app = Sanic(__name__)
-tp = sj(app)
+tp = sj(app,pkg_name='run')
 app.static('/static', './static/')
 
 
 @app.route('/', methods=['POST', 'GET'])
 @tp.template('index.html')
 async def index(request):
-    if request.method == 'POST':
-        username = request.form['username'][0]
-        password = request.form['password'][0]
-        print('request:', request.form)
-        print('password:', password)
-        data['password'] = password
+    return
 
 
 @app.route('/get/marketnavi2c', methods=['GET'])
@@ -363,6 +357,6 @@ async def plotBg(request):
 if __name__ == '__main__':
     app.run(
         host='0.0.0.0',
-        port=8080,
+        port=8110,
         debug=True
     )
