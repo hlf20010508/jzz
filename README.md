@@ -58,3 +58,7 @@ sudo systemctl start jzz@username
 ```
 
 取消开机运行和当前运行分别使用disable和stop，查看状态使用status
+
+<br/>
+
+本程序使用的前端来自jzz-vue项目https://github.com/hlf20010508/jzz-vue.git
