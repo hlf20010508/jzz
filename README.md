@@ -1,3 +1,21 @@
+本程序为“君之竹”产业互联网平台后端程序
+
+<br/>
+
+连接数据库后的效果
+
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/1.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/2.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/3.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/4.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/5.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/6.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/7.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/8.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/9.png'/>
+<img src='https://github.com/hlf20010508/jzz-sanic/raw/master/readme_photos/10.png'/>
+
+
 本程序需要mysql服务器
 
 在mysql服务器中创建一个数据库，然后将jzz.sql导入该数据库即可得到数据示例
