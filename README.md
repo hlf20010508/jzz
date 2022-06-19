@@ -41,7 +41,7 @@ sanic run.app -H 127.0.0.1 -p 5000
 
 需要开机运行，则将jzz@.service复制到系统目录/etc/systemd/system文件夹下
 
-可在jzz@.service中编辑host和port
+在jzz@.service中编辑host和port，并更改工作目录
 
 <br/>
 
