@@ -3,7 +3,7 @@ from sanic.response import text, html, file, json
 from sanic_jinja2 import SanicJinja2 as sj
 from ezmysql import ConnectionAsync
 import datetime
-import json
+import cjson
 
 try:
     config_file = open('config.json', 'r')
@@ -11,7 +11,7 @@ except:
     print('未找到数据库配置文件，请先运行config.py')
     print('python config.py')
     exit()
-config = json.load(config_file)
+config = cjson.load(config_file)
 config_file.close()
 host = config['host']
 database = config['database']
