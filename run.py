@@ -3,7 +3,7 @@ from sanic.response import text, html, file, json
 from sanic_jinja2 import SanicJinja2 as sj
 from ezmysql import ConnectionAsync
 import datetime
-import cjson
+import json as cjson
 
 try:
     config_file = open('config.json', 'r')
