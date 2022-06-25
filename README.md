@@ -30,9 +30,16 @@ python config.py
 
 <br/>
 
+使用pipenv安装运行环境
+```
+pipenv sync
+```
+
+<br/>
+
 运行程序
 ```
-sanic run.app -H 127.0.0.1 -p 5000
+pipenv run sanic run.app -H 127.0.0.1 -p 5000
 ```
 
 <br/>

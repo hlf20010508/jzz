@@ -26,7 +26,7 @@ db = ConnectionAsync(
     password,
 )
 app = Sanic(__name__)
-tp = sj(app,pkg_name='app')
+tp = sj(app,pkg_name='run')
 app.static('/static', './static/')
 
 
